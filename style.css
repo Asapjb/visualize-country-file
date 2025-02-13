@@ -1,0 +1,223 @@
+#bulbOn, #bulbOff{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 50px;
+}
+#mybulb{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+
+.tictac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.right{
+    border-right: hidden;
+}
+
+.left{
+    border-left: hidden;
+}
+.bottom{
+    border-bottom: hidden;
+}
+td{
+   border: 1px solid #000;
+   padding: 3rem 3rem;
+   border-top: hidden;
+   border-collapse: collapse;
+  }
+
+
+  /*tictactoe*/
+
+  
+
+.xno{
+    margin-left: 4rem;
+    margin-top: 4rem;
+    max-width: 200px;
+    max-height: 200px;
+}
+.box{
+    width: 10px;
+    border:3px solid #000;
+    border-collapse: collapse;
+    
+}
+#restartBtn{
+    margin-left: 4rem;
+}
+/* .box{
+    border: 1px solid #000;
+    padding: 1rem;
+    display: inline-flex;
+    width: 2rem;
+    height: 2rem;
+   
+  } */
+
+  /*phone*/
+  .phone{
+    border: 1px solid #000;
+    margin:  4rem;
+    max-width: fit-content;
+    border-radius: 10px;
+    box-shadow: 1.5px 2px .5px .5px;
+  }
+  .phonescreen{
+    border: 1px solid #000;
+    width: 152px;
+    height: 190px;
+    text-wrap: wrap;
+  }
+  .phone--btn{
+    width:50px;
+    padding: .5rem;
+    cursor: pointer;
+  }
+  .phone--btn:hover{
+    background-color: #4d4b4b;
+    color: #fff;
+  }
+  .wrapper h1, h2, span{
+      display: flex;
+      justify-content: center;
+  }
+ul{
+  padding: 0;
+}
+  .wrapper li{
+    list-style-type: none;
+    margin: .5rem;
+  }
+  .list{
+      display: flex;
+      justify-self: center;
+  }
+#input{
+    width: 15rem;
+    margin-right:.5rem;
+    margin-bottom: 1rem;
+}
+#btn{
+  background-color: green;
+  color: #fff;
+  
+}
+
+  #numberContainer{
+      display: grid;
+      grid-template-columns: repeat(6, 100px);
+      gap: 5px;
+  }
+  #numberContainer div{
+      width: 100px;
+      height: 60px;
+      font-size: 24px;
+      color: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#countryContainer{
+      display: grid;
+      grid-template-columns: repeat(6, 100px);
+      gap: 5px;
+}
+#countryContainer div{
+      border: 1px solid rgb(224, 205, 205);
+      width: 100px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+/* countries visulaization*/
+body{
+  background-color:antiquewhite;
+}
+.body{
+  
+    background-image: url(./images/world\ background\ img.avif) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.country-header{
+      color: white;
+      letter-spacing: 20px;
+}
+.total-text{
+  color: #fff;
+}
+i{
+    color: #fff;
+}
+button{
+    background-color:rgb(88, 50, 168);
+    color: #fff;
+    font-size: 13px;
+    padding:10px;
+    border: 0;
+    margin: 2px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    
+}
+button:active{
+  transform: scale(.9);
+}
+button:hover{
+  background-color: #b587c3;
+}
+input{
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    outline: 0;
+    border: 0;
+    width: 400px;
+    padding: 7px;
+}
+input::placeholder{
+    text-align: center;
+}
+.resultContainer{
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    gap: 30px;
+    justify-self: center;
+    margin-top: 10px;
+}
+.resultContainer div{
+  border: 1px solid rgb(224, 205, 205);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.countryBox{
+    background-image: url(././images/world\ background\ img.avif);
+    opacity: .7;
+    color: white;
+    font-size: 20px;
+}
+
+   
